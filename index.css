@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Cinzel:900|Playfair+Display');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+.header {
+  background: url("ExteriorOverviewDaytime.jpeg") no-repeat center center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.header1 {
+    background: url("8-Atlantis-Sanya.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+.header-text {
+  text-align: center;
+  position: relative;
+  top: 20%;
+  width: 60%;
+  margin: 0 auto;
+}
+.header-text h2 {
+  margin-bottom: 70px;
+  font-family: 'Playfair Display', serif;
+  color: #2976c2;
+  font-size: 30px;
+  
+}
+.header-text .btn {
+  font-family: 'Playfair Display', serif; 
+  text-decoration: none;
+  background-color: #1c1c1c;
+  text-transform: uppercase;
+
+  padding: 20px 30px;
+  text-align: center;
+  box-shadow: 0px 0px 1px 1px #56c9e9;
+  margin-bottom: 40px;
+}
+
+
+.btn:hover {
+  background-color: #25c0d8;
+  color: #000;
+  font-weight: 700;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: rgb(3, 3, 73);
+  font-weight: 700;
+  font-size: 35px;
+  margin: 0;
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+
+  font-size: 25px;
+}
+h3 {
+  font-family: 'Playfair Display', serif;
+  color: #8d0003;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.rooms #rintro {
+    text-align: center;
+    font-size: 50px;
+    margin: 18px;
+}
+
+.rooms #rsum1,
+#rsum2 {
+    text-align: center;
+    font-size: 18px;
+    margin: 18px;
+    color:#8d0003;
+}
+
+.rooms #rsum2 {
+    font-size: 15px;
+    padding-bottom: 12px;
+}
+
+
+/* Room Details   */
+
+.roomspic {
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.roomspic img {
+    width: 47%;
+    padding: 30px;
+}
+
+.rdesc {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 32px;
+    padding-right: 22px;
+    font-size: 18px;
+}
+
+#r1,
+#r3 {
+    flex-direction: row;
+}
+
+#r2,
+#r4 {
+    flex-direction: row-reverse;
+}
